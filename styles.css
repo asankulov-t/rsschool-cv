@@ -1,0 +1,156 @@
+body{
+    margin: 15px 150px;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+select{
+    margin-top: 20px;
+}
+h2{
+    color: #dcba3f;
+    margin-top: 15px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: cornflowerblue;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header p{
+    font-size: 18px;
+}
+.some_info{
+    margin-left: 100px;
+}
+.avatar{
+    width: 360px;
+}
+
+.skills_list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 200px;
+}
+.skills_list li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 65px;
+    color: #4f58b1;
+}
+.education ul{
+    padding: 0;
+}
+.education li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 30px;
+    color: #4f58b1;
+}
+.lang_list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lang_list li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 30px;
+    color: #4f58b1;
+}
+.portfolio_list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 30px;
+}
+
+.portfolio li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 30px;
+    color: #4f58b1;
+}
+
+.portfolio ul{
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio li a{
+    color: #4f58b1;
+}
+.portfolio li a:hover{
+    color: black;
+}
+
+.contact_list li{
+    margin: 0;
+
+}
+.contact_list{
+    color: #4f58b1;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact_list a{
+    color: #4f58b1;
+}
+.contact_list li a:hover{
+    color: black;
+}
+.footer{
+    background-color: #e6f3f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_img img{
+    width: 80px;
+}
